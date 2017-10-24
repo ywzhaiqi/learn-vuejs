@@ -1,0 +1,15 @@
+{
+  "name": "learn-vuejs",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "poi",
+    "start": "poi",
+    "build": "poi build"
+  },
+  "dependencies": {
+    "vue": "^2.5.2",
+    "vue-router": "^3.0.1"
+  }
+}
