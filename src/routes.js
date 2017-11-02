@@ -2,6 +2,7 @@
 import { User, UserHome, UserPosts, UserProfile } from './pages/user'
 
 const Learn = () => import(/* webpackChunkName: "learn-page" */ './pages/Learn.vue')
+const Speech = () => import('./pages/Speech.vue')
 
 const routes = [
   {
@@ -25,6 +26,9 @@ const routes = [
       }
     ]
   },
+  {
+    path: '/speech', component: Speech,
+  }
 ]
 
 export default routes
